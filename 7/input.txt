@@ -1,0 +1,9 @@
+START 1000
+DATA DC F'10'
+LOOP1 USING *,15
+       L  1,DATA
+       LA  1,10
+       ST  1,RESULT
+       BNE LOOP1
+RESULT DS F
+       END

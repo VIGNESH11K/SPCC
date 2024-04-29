@@ -41,19 +41,10 @@ int main(){
 
             }
                  fscanf(fp3,"%s %s %s %s",locctr,label,opcode,operand);
-
-
         }
-
         fclose(fp1);
          fclose(fp1);
           fclose(fp1);
            fclose(fp1);
-           
-
-
-
-
-
 
 }

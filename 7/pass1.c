@@ -57,10 +57,6 @@
 // }
 
 
-
-
-
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -99,18 +95,10 @@ int main(){
                 break;
             }
             fscanf(fp2,"%s ",mneumonic);
-
-
         }
-        rewind(fp2);
-         
-
-       
+        rewind(fp2);    
         } 
         fscanf(fp1,"%s %s %s",label,opcode,operand);
-
-
-
       }
       fprintf(fp1,"%s %s %s %s",locctr,label,opcode,operand);
       fclose(fp1);
@@ -118,13 +106,6 @@ int main(){
         fclose(fp3);
        fclose(fp4);
        return 0;
-
-
-
-
-
-
-
 
     }
 

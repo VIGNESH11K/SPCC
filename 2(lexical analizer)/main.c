@@ -50,17 +50,52 @@ bool ifConst(char word[]){
 
 bool isLiteral(char word[]){
     int i=0;
-    int j=srtlen(word)-1;
+    int j=strlen(word)-1;
 
-    if((int)word[i]==34 && (int)word[i] || (int)word[i]==39 ||(int)word[i]==39){
+    if((int)word[i]==34 && (int)word[i]==34 || (int)word[i]==39 ||(int)word[i]==39){
     return true;
     }
     return false;
 }
 
-
 int main(){
     char word[80];
-    char file
+    char file_name[80]=" ";
+    FILE *in_file;
+    in_file=fopen(file_name,"r");
+    if (in_file =="NULL"){
+        printf("ERROR LOADING");
+
+    }
+    
+    else{
+        while(fscanf(in_file,"%s",word)!=EOF){
+            if(ifKeyboard(word)==true){
+                printf("keyword hai");
+            }
+
+            else if(ifOperator(word)==true){
+                printf("operator hai");
+
+            }
+
+            else if(ifConst(word) == true){
+                printf("%s is constant\n",word);
+            }
+            else if(ifSpecialSymbol(word) == true){
+                printf("%s is special symbol\n",word);
+            }
+            else if(isLiteral(word) == true){
+                printf("%s is a literal\n",word);
+            }
+            else{
+                printf("identifier hai");
+            }
+
+        }
+
+    }
+
+    return 0;
 }
 

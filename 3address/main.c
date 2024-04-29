@@ -15,6 +15,8 @@ void a(T *c, char *v, char *l);
 void r(T *c, char *o, char *a1, char *a2, char *r);
 void d(T *c);
 
+
+
 int main() {
     T c[100];
     int i = 0;
@@ -39,6 +41,7 @@ int main() {
 
     return 0;
 }
+
 
 // Generate assignment statement
 void a(T *c, char *v, char *l) {

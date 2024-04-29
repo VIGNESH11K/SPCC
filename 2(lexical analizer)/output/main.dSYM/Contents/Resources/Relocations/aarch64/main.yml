@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vigneshrk/Desktop/spcc/2(lexical analizer)/output/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _ifKeyboard, symObjAddr: 0x0, symBinAddr: 0x10000383C, symSize: 0xEC }
+  - { offsetInCU: 0x48, offset: 0x48, size: 0x8, addend: 0x0, symName: _ifKeyboard, symObjAddr: 0x0, symBinAddr: 0x10000383C, symSize: 0xEC }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _ifOperator, symObjAddr: 0xEC, symBinAddr: 0x100003928, symSize: 0xCC }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: _ifSpecialSymbol, symObjAddr: 0x1B8, symBinAddr: 0x1000039F4, symSize: 0x16C }
+  - { offsetInCU: 0xC0, offset: 0xC0, size: 0x8, addend: 0x0, symName: _ifConst, symObjAddr: 0x324, symBinAddr: 0x100003B60, symSize: 0x68 }
+  - { offsetInCU: 0xE8, offset: 0xE8, size: 0x8, addend: 0x0, symName: _isLiteral, symObjAddr: 0x38C, symBinAddr: 0x100003BC8, symSize: 0xD0 }
+  - { offsetInCU: 0x12C, offset: 0x12C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x45C, symBinAddr: 0x100003C98, symSize: 0x208 }
+...

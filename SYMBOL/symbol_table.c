@@ -17,12 +17,16 @@ int main (){
         if (a>='0'&& a<='9'){
             printf("Constant \t");
         }
+
+        
         else if (a >= 'a' && a <= 'z' || a >= 'A' && a <= 'Z') {
             printf ("Identifier \t");
         }
+
         else if (a == '+' || a == '-' || a == '*' || a == '/' || a == '%' || a == '^' || a == '=') {
             printf("Operator \t");
         }
+
         else {
             printf ("Special Symbol \t");
         }

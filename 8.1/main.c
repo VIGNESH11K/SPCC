@@ -26,7 +26,6 @@ int main (){
                 mdtc++;
             }
             
-
         }
         else{
             fprintf(fp4,"%s %s %s",label ,opcode,operand);

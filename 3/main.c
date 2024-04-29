@@ -7,7 +7,7 @@
 void procF(char str[]);
 void procE(char str[]);
 
-int i =0;
+int i = 0;
 
 // T'->*FT'/eps
 void procTdash(char str[])
@@ -65,26 +65,27 @@ void procE(char str[])
     procEdash(str);
 }
 
-
 int main(){
     printf("Enter the input: \n");
     char str[SIZE];
-    fgets(str,SIZE,stdin);
-    int n=strlen(str);
+    fgets(str, SIZE, stdin);
+    int n = strlen(str);
     procE(str);
-
-    if((n-1)==i){
-        printf("accc");
+    if((n-1)==i)
+    
+    {
+        printf("Input is accepted\n");
     }
-
     else{
-        printf("reject");
+        printf("Input isn't accepted\n");
+        printf("ERROR");
     }
 
     return 0;
-    
-
-    
-
-    
 }
+
+//Test cases :
+// (i+i*i/i)
+//i+
+//(i+i*i) open and close
+//i/i

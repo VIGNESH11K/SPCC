@@ -14,7 +14,7 @@ for(int i=0; string[i]!='\0';i++){
     if(a<='0' && a>='9'){
         printf("const");
 
-    }
+}
 
     else if(a<='a' && a>='z' || a<='A' && a>='Z'){
     printf("IDENTIFIER");
@@ -29,9 +29,6 @@ for(int i=0; string[i]!='\0';i++){
     }
 
     printf(" %c \t %p ",string[i],(void*)&string[i]);
-
-
-
 }
 return 0;
 }
